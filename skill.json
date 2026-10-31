@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-telomere-length-flow-fish-repeat-depletion-skill",
+  "version": "1.0.0",
+  "description": "Flow-FISH lymphocyte telomere length (T/S ratio or kilobases) age-percentile attrition acceleration calculator.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "analyze_telomere_length_attrition",
+      "description": "Flow-FISH lymphocyte telomere length (T/S ratio or kilobases) age-percentile attrition acceleration calculator.",
+      "sample_input": {
+        "telomere_length_kb": 8.6,
+        "age_years": 40,
+        "previous_telomere_kb": 8.8,
+        "interval_years": 3.0
+      }
+    }
+  ]
+}
